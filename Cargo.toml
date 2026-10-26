@@ -1,0 +1,9 @@
+[package]
+name = "tum-conway-invariant-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Deterministic Conway automaton invariant verification"
+license = "MIT"
+
+[dependencies]

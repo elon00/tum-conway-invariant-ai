@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "tum-conway-invariant-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "TUM Munich",
+        "PROJECT_TICKER": "TUMCWY"
+      },
+      "tools": [
+        {
+          "name": "verify_tumcwy_invariants",
+          "description": "Verifies deterministic invariants for TUM Conway Invariant AI on TUM Munich."
+        },
+        {
+          "name": "execute_tumcwy_action",
+          "description": "Executes authenticated Invariant Engine state transition."
+        }
+      ]
+    }
+  }
+}
